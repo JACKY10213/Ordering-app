@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 390px;
+    margin: 0 auto;
+    color: #555;
+    font-size: 0.8rem;
+
+
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(image.jpg);
+    color: white;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+
+}
+
+h1 {
+    font-weight: 500;
+}
+
+.container {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.item {
+    display: flex;
+    gap: 1em;
+    border-bottom: 1px solid #999;
+    padding: 1.5em 0;
+}
+
+.item-emoji {
+    font-size: 4rem;
+}
+
+.item-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.item-ingredients {
+    opacity: .7;
+    font-size: 0.7rem;
+
+}
+
+.btn {
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+}
+
+.add-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    font-weight: 300;
+}
+
+.order-sec {
+    padding: 2rem 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.added-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+
+.added-item {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.remove-tag {
+    font-size: 0.7rem;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.added-item-price {
+    margin-left: auto;
+}
+
+.total-price-area {
+    display: flex;
+    align-items: center;
+    padding: 1em 0 2.5em 0;
+    border-top: 2px solid #999;
+    margin-top: 1em;
+}
+
+.complete-order-btn {
+    background-color: #16DB99;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 0.8em 0;
+    font-weight: bold;
+    width: 100%;
+}
+
+.card-details {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px 10px;
+    border: 1px solid gray;
+    display: none;
+}
+
+.card-details h3 {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    gap: 1em;
+}
+
+input {
+    padding: .8em 1em;
+}
+
+input,
+.pay {
+    font-family: inherit;
+    font-size: inherit;
+    width: 100%;
+}
+
+.pay {
+    background-color: #16DB99;
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 0.8em 0;
+    font-weight: bold;
+}
+
+.order-notification {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #ECFDF5;
+    color: #065F46;
+}
